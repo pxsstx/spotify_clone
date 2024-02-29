@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:"Poppins", sans-serif;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: white;
+  cursor: pointer;
+  width: 15rem;
+  height: 0.5rem;
+}
+
+#volume{
+  -webkit-appearance: none;
+  appearance: none;
+  background: white;
+  cursor: pointer;
+  width: 5rem;
+  height: 0.5rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #5cd5eb;
+  height: 0.5rem;
+  width: 0.5rem;    
+}
