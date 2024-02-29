@@ -1,5 +1,6 @@
 import { BiBell, BiSolidChevronLeft, BiSolidChevronRight } from 'react-icons/bi'
 
+
 function MenuNavbar() {
     return (
         <div className="flex w-full h-[40px] justify-between text-sm">
